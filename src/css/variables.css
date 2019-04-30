@@ -1,11 +1,12 @@
 
 :root{
-    --minHeight: 360px;
+    --minHeight: 100vh;
     --minWidth: 320px;
+    --wrapperWidth: 90%;
 
 }
 body{
-    font-size:10px;
+    font-size:15px;
 }
 *{
     margin: 0;
@@ -15,14 +16,17 @@ body{
 a{
     /* reset */
     text-decoration: none;
-    color: black;
+    color:inherit;
    
+}
+a:active{
+    color:inherit;
+
 }
 .a{    
     /* my */
     display: block;
-    width: 100%;
-    height: 100%;
+    color:inherit;
 }
 .img{
     height: 100%;
@@ -30,9 +34,17 @@ a{
 .flexColumn{
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
 }
 .flexRow{
     display: flex;
     flex-direction: row;
+
 }
 
+.wrapper{
+    width: var(--wrapperWidth);
+}
