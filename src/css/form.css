@@ -1,0 +1,58 @@
+.register{
+   
+    height: 100vh;
+    width: 100vw;
+     min-width: var(--minWidth);
+    min-height: var(--minHeight);
+
+    background-color: red;
+       /* flex C */
+
+}
+.header{
+    width: 100%;
+    /* flex C */
+    justify-content: center;
+
+}
+/* black header */
+.header__black{
+    height: 35px;
+    /* width: 100%; */
+
+    /* min-height: 35px; */
+    background-color: #222222;
+    color: white;
+
+    /* flex C */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.header__phone{
+    width: 50%;
+}
+
+
+/* gray header */
+.header__gray{
+   height: 65px;
+
+/* flex-grow: 1; */
+   width: 100%;
+
+   background-color: #4c4c4c;
+   color: white;
+    /* flex C */
+    justify-content: stretch;
+    align-items: center;
+}
+
+.header__img{
+    height: 55%;
+    width: auto;
+}
+.header__h2{
+    text-transform: uppercase;
+}
