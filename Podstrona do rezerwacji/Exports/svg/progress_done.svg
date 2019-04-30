@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="progress_done" transform="translate(-764 -215)">
+    <circle id="Ellipse_275" data-name="Ellipse 275" cx="23" cy="23" r="23" transform="translate(764 215)" fill="#81e60d"/>
+    <g id="Group_329" data-name="Group 329" transform="translate(233 -164)">
+      <rect id="Rectangle_460" data-name="Rectangle 460" width="25" height="25" transform="translate(544 393)" fill="none"/>
+      <path id="Checkbox" d="M7.931,13.793,0,5.862,1.609,4.253,7.931,10.46,18.391,0,20,1.609Z" transform="translate(544 395)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

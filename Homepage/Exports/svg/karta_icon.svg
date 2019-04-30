@@ -1,0 +1,6 @@
+<svg id="karta_icon" xmlns="http://www.w3.org/2000/svg" width="112" height="80" viewBox="0 0 112 80">
+  <path id="Path_207" data-name="Path 207" d="M137,96H39a7,7,0,0,0-7,7h0v66h0a7.021,7.021,0,0,0,7,7h98a7.021,7.021,0,0,0,7-7.075h0v-65.85h0A7.021,7.021,0,0,0,137,96Zm-93.725,8H132.7a3.324,3.324,0,0,1,3.275,3v5H40v-5.075A3.3,3.3,0,0,1,43.275,104Zm89.45,64H43.275A3.278,3.278,0,0,1,40,165.075V136h96v29A3.342,3.342,0,0,1,132.725,168Z" transform="translate(-32 -96)" fill="#f10e80"/>
+  <rect id="Rectangle_1106" data-name="Rectangle 1106" width="48.718" height="4.06" transform="translate(16.239 51.959)" fill="#f10e80"/>
+  <rect id="Rectangle_1107" data-name="Rectangle 1107" width="24.359" height="4.06" transform="translate(16.239 59.953)" fill="#f10e80"/>
+  <rect id="Rectangle_1108" data-name="Rectangle 1108" width="16.239" height="12.18" transform="translate(79.521 51.863)" fill="#f10e80"/>
+</svg>

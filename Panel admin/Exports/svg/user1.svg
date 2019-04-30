@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <g id="user1" transform="translate(-1543 -15)">
+    <g id="Rectangle_1095" data-name="Rectangle 1095" transform="translate(1543 15)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="51" height="51" stroke="none"/>
+      <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+    </g>
+    <path id="Icon" d="M-6120-16070v-2.5c0-2.752,4.5-5,10-5s10,2.25,10,5v2.5Zm5-15a5,5,0,0,1,5-5,5,5,0,0,1,5,5,5,5,0,0,1-5,5A5,5,0,0,1-6115-16085Z" transform="translate(7679 16120)" fill="#222"/>
+  </g>
+</svg>
