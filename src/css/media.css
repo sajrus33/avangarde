@@ -1,3 +1,19 @@
-.displayNone{
+.displayMobile{
     display: none;
 }
+
+@media only screen and (min-width: 768px) {
+    :root{  
+        /* progress */
+        --progressSize: 45px;
+    
+    }
+    .displayMobile{
+        display: flex;
+    }
+    .header__profile{
+        order:2;
+    }
+  }
+
+

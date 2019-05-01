@@ -23,16 +23,17 @@
             <!-- black strip -->
             <div class="flexRow header__black">
                 <div class="flexRow wrapper header__black--wrapper">
-                    <div class="header__phone"><i class="fas fa-phone"></i> 000 000 000</div>
-                    <a href="#" class="a header__profile"><i class="fas fa-user"></i></a>
+                    <div class="header__phone"><i class="fas fa-phone header__ico ico__phone"></i> 000 000 000</div>
+                    <a href="#" class="a header__profile"><i class="fas fa-user header__ico"></i></a>
 
-                    <div class="header__adress"><i class="fas fa-map-marker-alt"></i> 00-000 Sample, ul. Sample 45</div>
+                    <div class="header__adress"><i class="fas fa-map-marker-alt header__ico"></i> 00-000 Sample, ul.
+                        Sample 45</div>
 
-                    <div class="header__media displayNone">
-                        <a href="#" class="a header__ico--first"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="a header__ico--second"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="a header__ico--thirt"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="a header__ico--fourth"><i class="fas fa-globe-americas"></i></a>
+                    <div class="flexRow header__media displayMobile">
+                        <a href="#" class="a"><i class="fab fa-instagram header__ico"></i></a>
+                        <a href="#" class="a"><i class="fab fa-twitter header__ico"></i></a>
+                        <a href="#" class="a"><i class="fab fa-facebook-f header__ico"></i></a>
+                        <a href="#" class="a"><i class="fas fa-globe-americas header__ico"></i></a>
                     </div>
                 </div>
             </div>
@@ -47,12 +48,28 @@
 
         </header>
 
-        <main class="form flexColumn">
-            <div class="wrapper flexColumn">
+        <main class="flexColumn">
+            <div class="form wrapper flexColumn">
                 <a class="form__button form__button--back" href="#"><i class="fas fa-chevron-left"></i> Wróć</a>
-                <div class="form__progress">
-
+                <div class="progress flexRow">
+                    <img class="img progress__img" src="/public/img/progress--current--small.png" alt="first point">
+                    <span class="progress__bar"></span>
+                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <span class="progress__bar"></span>
+                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <span class="progress__bar"></span>
+                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <span class="progress__bar"></span>
+                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
                 </div>
+            </div>
+
+            <div class="flexColumn">
+                <section class="wrapper register__section register__section--first">
+                    <h2 class="register__h2">Wybierz zabieg</h2>
+                    <input type="text" class="register__input register__input--search" placeholder="Wyszukaj zabieg">
+                </section>
+
             </div>
 
 
@@ -67,7 +84,7 @@
 
 
 
-
+    <script src="/public/js/index.js"></script>
 </body>
 
 </html>

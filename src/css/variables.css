@@ -4,9 +4,13 @@
     --minWidth: 320px;
     --wrapperWidth: 90%;
 
+    /* progress */
+    --progressSize: 35px;
+
 }
 body{
     font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     margin: 0;
@@ -42,7 +46,8 @@ a:active{
 .flexRow{
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper{
