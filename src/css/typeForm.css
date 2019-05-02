@@ -1,0 +1,82 @@
+.type__wrapper{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.register__input--search{
+    height: 40px;
+    width: 200px;
+    flex-grow: var(--inputSearchGrow);
+    border: 2px solid #c4c4cc;
+    border-radius: 5px;
+
+    margin:15px 0px;
+    
+    
+    
+
+    background-image: url("/public/img/ico--search--small.png");
+    background-repeat: no-repeat;
+    background-position: 99% center;
+}
+
+
+.type__container{
+}
+
+
+.type__label{
+    position: relative;
+
+    text-transform: uppercase;
+
+    display: block;
+    margin: 5px 0;
+
+}
+.type__label::after{
+    content: "";
+    position: absolute;
+    right:-20%;
+    top:50%;
+
+    transform: translateY(-50%);
+
+    background-image: url("/public/img/");
+}
+
+
+.type__radio{
+    position:absolute;
+
+    opacity: 0;
+    background-color: #000;
+}
+
+.type__radio:checked~.type__content{
+    transition: .2s linear;
+
+    max-height: 100vh;
+}
+
+
+.type__content{
+    max-height: 0;
+
+    overflow: hidden;
+    transition: 0s linear;
+
+}
+.type__table{
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.type__a:hover{
+   border: solid 2px  #c42776;
+}
+
+.type__a{
+   border: solid 2px  transparent;
+
+    justify-content: space-between;
+
+}

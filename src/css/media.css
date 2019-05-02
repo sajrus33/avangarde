@@ -6,6 +6,10 @@
     :root{  
         /* progress */
         --progressSize: 45px;
+
+        /* first form */
+
+        --inputSearchGrow: 0;
     
     }
     .displayMobile{

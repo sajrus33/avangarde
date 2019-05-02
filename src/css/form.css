@@ -107,6 +107,8 @@
 /* progress */
 .progress{
     margin-top: 15px;
+    margin-bottom: 35px;
+
 
 }
 .progress__bar{
@@ -120,18 +122,21 @@
 
 }
 .progress__img{
-    height: var(--progressSize);
+    max-height: var(--progressSize);
 }
 
 
 
 .register__h2{
     white-space: nowrap;
+    width: 300px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #d7c07d;
+    margin-bottom: 5px;
+
+    margin-right: auto;
 }
 
 .register__input{
-    
-}
-.register__input--search{
-    background-image: url("/public/img/ico--search--small.png");
+    padding: 10px;
 }
