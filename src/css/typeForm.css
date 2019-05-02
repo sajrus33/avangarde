@@ -21,27 +21,33 @@
 
 
 .type__container{
+
 }
 
 
 .type__label{
     position: relative;
-
+    /* width: auto; */
     text-transform: uppercase;
 
-    display: block;
+    /* display: block; */
     margin: 5px 0;
 
 }
 .type__label::after{
     content: "";
     position: absolute;
-    right:-20%;
+    right:-1em;
     top:50%;
+    height: 100%;
+    width: .5em;
 
-    transform: translateY(-50%);
+    transform: translate(-50%,-50%) rotate(-90deg);
 
-    background-image: url("/public/img/");
+    /* transform: translateY(-50%); */
+
+    background-image: url("/public/img/arrow--black--small.png");
+    /* background-color: #000; */
 }
 
 
@@ -56,6 +62,9 @@
     transition: .2s linear;
 
     max-height: 100vh;
+}
+.type__radio:checked~.type__label::after{
+    transform: translate(-50%,-50%) rotate(90deg);
 }
 
 
