@@ -12,7 +12,7 @@
 /* black header */
 .header__black{
     width: 100%;
-    height: 30px;
+    min-height: 30px;
 
     font-size: .7em;
    
@@ -58,7 +58,7 @@
 
 /* gray header */
 .header__gray{
-   height: 65px;
+   min-height: 65px;
    width: 100%;
 
    background-color: #4c4c4c;
@@ -70,7 +70,7 @@
 }
 
 .header__img{
-    height: 60%;
+    height: 35px;
     width: auto;
 }
 .header__h3{
@@ -107,9 +107,6 @@ overflow: hidden;
     height: 3px;
     background-color: #dbdbdb;
     /* active */
-    animation: barMove forwards 3s;
-
-
 }
 .progress__bar--active{
     background-color:  #97cb5d;
@@ -145,7 +142,7 @@ overflow: hidden;
 }
 .register__h2{
     white-space: nowrap;
-    width: 300px;
+    width: var(--registerH2Width);
     padding: 5px 0px;
     border-bottom: 1px solid #d7c07d;
 

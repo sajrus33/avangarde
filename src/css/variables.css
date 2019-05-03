@@ -4,6 +4,8 @@
     --minWidth: 320px;
     --wrapperWidth: 90%;
 
+    --registerH2Width: 300px;
+
     /* progress */
     --progressSize: 35px;
 
@@ -15,6 +17,8 @@
 
     /* thirt form */
     --dateFullSelfAlign: center;
+
+    /*  */
 
 }
 body{

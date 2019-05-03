@@ -7,6 +7,8 @@
 
 @media only screen and (min-width: 768px) {
     :root{  
+    --registerH2Width: 360px;
+
         /* progress */
         --progressSize: 45px;
 
@@ -14,7 +16,8 @@
 
         --inputSearchGrow: 0;
      /* thirt form */
-     --dateFullSelfAlign: flex-start;
+        --dateFullSelfAlign: flex-start;
+
     }
     .displayMobile{
         display: flex;

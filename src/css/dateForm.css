@@ -1,7 +1,9 @@
 .date__wrapper{
-    margin-top: 2%;
+    margin: 5% 0;
+
     width: auto;
     align-self:var(--dateFullSelfAlign);
+
 }
 .date__label{
     text-transform: uppercase;
@@ -10,6 +12,8 @@ font-size: 1.5em;
     color: #555555;
 
     letter-spacing: .1em;
+    margin-right: 5vw;
+
 }
 
 .date__full{
@@ -25,18 +29,18 @@ font-size: 1.5em;
     border: 2px solid #c4c4c4;
     border-radius: 10px;
 
-
-    margin-left: 15px;
+box-sizing: content-box;
+    /* margin-left: 5%; */
 }
 
 
 .date__wrapper--days{
     align-self: center;
-
     /* flex-wrap: wrap; */
 
 
 }
+
 .date__wrapper--wrap{
     flex-wrap: wrap;
     height: 80px;
@@ -45,6 +49,9 @@ font-size: 1.5em;
 
     margin:0;
 
+}
+.date__wrapper--auto{
+    width:auto;
 }
 
 .date__wrapper--day{
@@ -61,7 +68,7 @@ font-size: 1.5em;
 
     
 }
-.date__wrapper--day:hover{
+.date__wrapper--day:hover, .date__wrapper--hour:hover{
     border-color:#c42776;;
 
 }
@@ -76,6 +83,8 @@ font-size: 1.5em;
     background-image: url("/public/img/arrow--black--small.png");
     height: 20px;
     width: 10px;
+    min-width: 10px;
+
 
     background-color: transparent;
     border: none;
@@ -93,3 +102,30 @@ font-size: 1.5em;
 
 
 }
+
+/* hours */
+.date__wrapper--wrap--hours{
+    height: 50px;
+
+
+}
+.date__wrapper--hour{
+    /* flex-grow: 1; */
+    /* justify-content: space-between; */
+    width: 70px;
+    height: 50px;
+    margin:0 15px;
+
+    overflow: hidden;
+
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+
+    
+}
+.date__hour{
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+}
+
