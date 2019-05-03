@@ -16,6 +16,7 @@
 
     background-image: url("/public/img/ico--search--small.png");
     background-repeat: no-repeat;
+
     background-position: 99% center;
 }
 
@@ -32,17 +33,17 @@
 
     /* display: block; */
     margin: 5px 0;
+    padding-right: 18px;
 
 }
 .type__label::after{
     content: "";
     position: absolute;
-    right:-1em;
-    top:50%;
-    height: 100%;
-    width: .5em;
-
-    transform: translate(-50%,-50%) rotate(-90deg);
+    right:0;
+    top:100%;
+    height: 18px;
+    width: 9px;
+    transform: translate(-50%,-100%) rotate(-90deg);
 
     /* transform: translateY(-50%); */
 
@@ -64,7 +65,7 @@
     max-height: 100vh;
 }
 .type__radio:checked~.type__label::after{
-    transform: translate(-50%,-50%) rotate(90deg);
+    transform: translate(-50%,-100%) rotate(90deg);
 }
 
 
@@ -73,11 +74,14 @@
 
     overflow: hidden;
     transition: 0s linear;
+    margin: 10px 0;
+
 
 }
 .type__table{
     width: 100%;
     background-color: #f3f3f3;
+    
 }
 .type__a:hover{
    border: solid 2px  #c42776;

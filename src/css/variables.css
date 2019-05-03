@@ -10,6 +10,12 @@
     /* first form */
     --inputSearchGrow: 1;
 
+    /* second form */
+    --specialistSize: 130px;
+
+    /* thirt form */
+    --dateFullSelfAlign: center;
+
 }
 body{
     font-size:15px;
@@ -28,6 +34,7 @@ a{
 }
 a:active{
     color:inherit;
+    outline-color: #c42776;
 
 }
 .a{    

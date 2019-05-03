@@ -1,6 +1,9 @@
 .displayMobile{
     display: none;
 }
+.displayNone{
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
     :root{  
@@ -10,7 +13,8 @@
         /* first form */
 
         --inputSearchGrow: 0;
-    
+     /* thirt form */
+     --dateFullSelfAlign: flex-start;
     }
     .displayMobile{
         display: flex;

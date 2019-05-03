@@ -1,0 +1,35 @@
+.specialist{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.specialist__wrapper{
+    width: auto;
+
+    margin: 15px ;
+    border: 1px solid #e1e0e5;
+}
+.specialist__wrapper:hover{
+    border: 1px solid #c42776;;
+
+}
+
+.specialist__img{
+    width: var(--specialistSize);
+    height: var(--specialistSize);
+
+    border: 1px solid #e1e0e5;
+    margin: 10px;
+
+}
+.specialist__h4{
+    /* width: var(--specialistSize); */
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: .8em;
+
+}
+.specialist__p{
+    width: var(--specialistSize);
+}

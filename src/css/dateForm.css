@@ -1,0 +1,95 @@
+.date__wrapper{
+    margin-top: 2%;
+    width: auto;
+    align-self:var(--dateFullSelfAlign);
+}
+.date__label{
+    text-transform: uppercase;
+    font-weight: 600;
+font-size: 1.5em;
+    color: #555555;
+
+    letter-spacing: .1em;
+}
+
+.date__full{
+    background-image: url("/public/img/kalendarz_icon_black.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: 99% center;
+
+
+    height: 50px;
+    min-width: 200px;
+
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+
+
+    margin-left: 15px;
+}
+
+
+.date__wrapper--days{
+    align-self: center;
+
+    /* flex-wrap: wrap; */
+
+
+}
+.date__wrapper--wrap{
+    flex-wrap: wrap;
+    height: 80px;
+
+    overflow: hidden;
+
+    margin:0;
+
+}
+
+.date__wrapper--day{
+    /* flex-grow: 1; */
+    /* justify-content: space-between; */
+    height: 80px;
+    width: 70px;
+    margin:0 15px;
+
+    overflow: hidden;
+
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+
+    
+}
+.date__wrapper--day:hover{
+    border-color:#c42776;;
+
+}
+.date__day{
+    text-transform: uppercase;
+    /* margin:15px; 
+    */
+    padding: 5px;
+}
+
+.date__button{
+    background-image: url("/public/img/arrow--black--small.png");
+    height: 20px;
+    width: 10px;
+
+    background-color: transparent;
+    border: none;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    transform: rotate(-180deg);
+
+
+}
+
+.date__button--last{
+    background-image: url("/public/img/arrow--grey--small.png");
+
+
+}
