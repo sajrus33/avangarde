@@ -1,11 +1,22 @@
 
 :root{
+
+
     --minHeight: 100vh;
     --minWidth: 320px;
     --wrapperWidth: 90%;
 
     --registerH2Width: 300px;
+    --registerBgc:  white;
+ 
 
+/* register main */
+--registerMainMarginT: 0;
+--registerMainMarginR: 0;
+--registerMainMarginB: 0;
+--registerMainMarginL: 0;
+
+--registerMainBorder: none;
     /* progress */
     --progressSize: 35px;
 
@@ -22,6 +33,7 @@
 
 }
 body{
+    
     font-size:15px;
     font-family: Arial, Helvetica, sans-serif;
 }

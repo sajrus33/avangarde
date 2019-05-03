@@ -75,6 +75,7 @@
     overflow: hidden;
     transition: 0s linear;
     margin: 10px 0;
+    transition: .2s;
 
 
 }

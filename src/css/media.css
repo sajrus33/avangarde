@@ -27,4 +27,30 @@
     }
   }
 
+  @media only screen and (min-width: 1024px) {
+    :root{  
+        --registerH2Width: 360px;
 
+        /* progress */
+        --progressSize: 45px;
+        /* register main */
+    --registerBgc:  #f6f6f6;
+
+        --registerMainHeight: 60%;
+
+        --registerMainWidth: 70%;
+
+        --registerMainMarginT: auto;
+        --registerMainMarginR:auto;
+        --registerMainMarginB: auto;
+        --registerMainMarginL:auto;
+        --registerMainBorder: #707070 solid 2px;
+
+    }
+    .displayMobile{
+        display: flex;
+    }
+    .header__profile{
+        order:2;
+    }
+  }
