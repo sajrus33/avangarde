@@ -89,13 +89,13 @@
     min-height: var(--minHeight);
 
     background-color: var(--registerBgc);
-
        /* flex C */
        justify-content: flex-start;
     transition: .2s;
 }
 .register__main{
     background-color: white;
+    box-shadow: var(--registerBoxShadow);
 
     box-sizing: border-box;
     width: var(--registerMainWidth);
@@ -107,7 +107,7 @@
 
 }
 .register__section{
-overflow: hidden;
+/* overflow: hidden; */
     
 }
 .register__h2{
@@ -115,6 +115,7 @@ overflow: hidden;
     width: var(--registerH2Width);
     padding: 5px 0px;
     border-bottom: 1px solid #d7c07d;
+
 
     margin-right: auto;
     margin-bottom:15px;
@@ -150,9 +151,9 @@ overflow: hidden;
 /* progress */
 .progress{
     width: auto;
-    margin-top: 15px;
-    margin-bottom: 35px;
-overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    overflow: hidden;
 
 }
 .progress__bar{

@@ -10,13 +10,15 @@
     --registerBgc:  white;
  
 
-/* register main */
---registerMainMarginT: 0;
---registerMainMarginR: 0;
---registerMainMarginB: 0;
---registerMainMarginL: 0;
+    /* register main */
+    --registerMainMarginT: 0;
+    --registerMainMarginR: 0;
+    --registerMainMarginB: 0;
+    --registerMainMarginL: 0;
 
---registerMainBorder: none;
+    --registerBoxShadow:none;
+
+    --registerMainBorder: none;
     /* progress */
     --progressSize: 35px;
 

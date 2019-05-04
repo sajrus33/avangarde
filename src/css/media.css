@@ -29,14 +29,12 @@
 
   @media only screen and (min-width: 1024px) {
     :root{  
-        --registerH2Width: 360px;
 
-        /* progress */
-        --progressSize: 45px;
+     
         /* register main */
     --registerBgc:  #f6f6f6;
 
-        --registerMainHeight: 60%;
+        --registerMainHeight: 70%;
 
         --registerMainWidth: 70%;
 
@@ -45,12 +43,9 @@
         --registerMainMarginB: auto;
         --registerMainMarginL:auto;
         --registerMainBorder: #707070 solid 2px;
+    --registerBoxShadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
 
     }
-    .displayMobile{
-        display: flex;
-    }
-    .header__profile{
-        order:2;
-    }
+ 
   }
