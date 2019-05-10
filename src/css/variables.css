@@ -11,6 +11,11 @@
  
 
     /* register main */
+    --registerMainHeight: 70%;
+
+    --registerMainWidth: 70%;
+
+    
     --registerMainMarginT: 0;
     --registerMainMarginR: 0;
     --registerMainMarginB: 0;
@@ -31,8 +36,8 @@
     /* thirt form */
     --dateFullSelfAlign: center;
 
-    /*  */
-
+    /* fourth form --summary */
+    --summaryWrap: wrap;
 }
 body{
     

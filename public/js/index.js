@@ -43,4 +43,21 @@ dates.forEach(date => {
     });
 });
 
+
+// fourth form
+const summaryBtnCancel = document.querySelector(".summary__button--cancel");
+const summaryBtnRegister = document.querySelector(".summary__button--register");
+
+const summaryForm = document.querySelector(".register__section--fourth");
+
+
+const chwiloweGuziki = document.querySelectorAll(".summary__button");
+
+chwiloweGuziki.forEach(guzik => {
+    guzik.addEventListener("click", () => {
+        summaryForm.classList.toggle("displayNone");
+        summaryForm.nextElementSibling.classList.toggle("displayNone");
+    });
+});
+
 console.log({ types });

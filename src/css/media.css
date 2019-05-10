@@ -32,7 +32,7 @@
 
      
         /* register main */
-    --registerBgc:  #f6f6f6;
+        --registerBgc:  #f6f6f6;
 
         --registerMainHeight: 70%;
 
@@ -42,8 +42,11 @@
         --registerMainMarginR:auto;
         --registerMainMarginB: auto;
         --registerMainMarginL:auto;
-        --registerMainBorder: #707070 solid 2px;
-    --registerBoxShadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        --registerMainBorder: #707070 solid 1px;
+        --registerBoxShadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+        /* register summary form */
+        --summaryWrap: nowrap;
 
 
     }

@@ -616,13 +616,81 @@
 
                 <!-- register section 4 -->
                 <section class="flexRow wrapper summary--wrap register__section register__section--fourth displayNone">
-                    <div class="summary_section">
-                        <h2 class="register__h2">Podsumowanie planowanej wizyty</h2>
+                    <div class="summary_section flexColumn">
+                        <h2 class="register__h2">Podsumowanie wizyty</h2>
+                        <label class="summary__label" for="category">Kategoria zabiegu</label>
+                        <select class="register__input summary__select" id="category">
+                            <option value="first"> Strzyżenie damskie, modelowanie, prostowanie</option>
+                            <option value="second">inna opcja</option>
+                            <option value="thirt">inna opcja</option>
+                            <option value="fourth">inna opcja</option>
+                        </select>
+
+                        <label class="summary__label" for="type">Nazwa zabiegu</label>
+                        <select class="register__input summary__select" id="type">
+                            <option value="first"> Keratynowe prostowanie włosów</option>
+                            <option value="second">inna opcja</option>
+                            <option value="thirt">inna opcja</option>
+                            <option value="fourth">inna opcja</option>
+                        </select>
+
+                        <label class="summary__label" for="specialist">Pracownik</label>
+                        <select class="register__input summary__select" id="specialist">
+                            <option value="first"> Anna Kowalska</option>
+                            <option value="second">inna opcja</option>
+                            <option value="thirt">inna opcja</option>
+                            <option value="fourth">inna opcja</option>
+                        </select>
+
+                        <div class="flexRow summary__wrapper">
+                            <div class="summary__wrapper--date">
+                                <label class="summary__label" for="date">Dane wizyty </label>
+                                <select class="register__input summary__select" id="date">
+                                    <option value="first">18.02.2019</option>
+                                    <option value="second">inna opcja</option>
+                                    <option value="thirt">inna opcja</option>
+                                    <option value="fourth">inna opcja</option>
+                                </select>
+                            </div>
+
+                            <div class="summary__wrapper--hour">
+                                <label class="summary__label" for="hour">Godzina wizyty</label>
+                                <select class="register__input summary__select" id="hour">
+                                    <option value="first">9:00</option>
+                                    <option value="second">inna opcja</option>
+                                    <option value="thirt">inna opcja</option>
+                                    <option value="fourth">inna opcja</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
                     </div>
-                    <div class="summary_section">
+                    <div class="summary_section flexColumn">
                         <h2 class="register__h2">Podaj swoje dane</h2>
+                        <label class="summary__label" for="name">Imię i nazwisko</label>
+                        <input type="text" id="name" placeholder="Podaj swoje imię i nazwisko">
+                        <label class="summary__label" for="name">Nr telefonu</label>
+                        <input type="text" id="name" placeholder="Wpisz nr telefonu">
+
+                        <div class="flexRow summary__wrapper--check">
+                            <input class="summary__check" type="checkbox" id="check">
+                            <label for="check" class="summary__label--check">
+                                Akceptuję regulamin zamówienia i wyrażam zgodę na przetwarzanie moich danych osobowych.
+                            </label>
+                        </div>
+
+                        <div class="summary__wrapper--control">
+                            <button class="summary__button summary__button--cancel">Anuluj</button>
+                            <button class="summary__button summary__button--register">Zarezerwuj</button>
+                        </div>
                     </div>
                 </section>
+
+                <!-- register section 5 -->
+                <section class="flexRow wrapper summary--wrap register__section register__section--fourth displayNone">
+
             </div>
 
 

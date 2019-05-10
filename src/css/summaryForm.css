@@ -1,0 +1,7 @@
+.summary--wrap{
+    flex-wrap: var(--summaryWrap);
+}
+.summary__select{
+    text-transform: uppercase;
+    border-radius: 10px;
+}
