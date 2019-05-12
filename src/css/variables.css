@@ -38,6 +38,11 @@
 
     /* fourth form --summary */
     --summaryWrap: wrap;
+    --summarySectionWidth: 100%;
+    --summaryAfterDisplay: block;
+
+    /* fifth form --details */
+    --detailsBtnWidth: 75%;
 }
 body{
     

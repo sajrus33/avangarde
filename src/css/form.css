@@ -99,6 +99,7 @@
 
     box-sizing: border-box;
     width: var(--registerMainWidth);
+    min-width: 320px;
     height: var(--registerMainHeight);
 
     margin: var(--registerMainMarginT) var(--registerMainMarginR) var(--registerMainMarginB) var(--registerMainMarginL);
@@ -113,12 +114,12 @@
 }
 .register__h2{
     white-space: nowrap;
-    width: var(--registerH2Width);
+    max-width: var(--registerH2Width);
     padding: 5px 0px;
     border-bottom: 1px solid #d7c07d;
 
-
-    margin-right: auto;
+    align-self: flex-start;
+    /* margin-right: auto; */
     margin-bottom:15px;
 
 }
@@ -126,7 +127,6 @@
 .register__input{
     padding: 10px;
 }
-
 
 
 

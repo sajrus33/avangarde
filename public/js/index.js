@@ -45,10 +45,19 @@ dates.forEach(date => {
 
 
 // fourth form
+const summaryForm = document.querySelector(".register__section--fourth");
+
+const summaryInputCategory = document.querySelector(".summary__input--category");
+const summaryInputType = document.querySelector(".summary__input--type");
+const summaryInputSpecialist = document.querySelector(".summary__input--specialist");
+const summaryInputDate = document.querySelector(".summary__input--date");
+const summaryInputHour = document.querySelector(".summary__input--hour");
+const summaryInputName = document.querySelector(".summary__input--name");
+const summaryInputPhone = document.querySelector(".summary__input--phone");
+
 const summaryBtnCancel = document.querySelector(".summary__button--cancel");
 const summaryBtnRegister = document.querySelector(".summary__button--register");
 
-const summaryForm = document.querySelector(".register__section--fourth");
 
 
 const chwiloweGuziki = document.querySelectorAll(".summary__button");
@@ -61,3 +70,7 @@ chwiloweGuziki.forEach(guzik => {
 });
 
 console.log({ types });
+
+
+// fifth form
+const detailsForm = document.querySelector(".register__section--fifth");

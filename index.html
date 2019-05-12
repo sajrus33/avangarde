@@ -40,7 +40,7 @@
             <!-- gray strip   later nav-->
             <div class="header__gray flexColumn">
                 <div class="header__img">
-                    <img class="img" src="/public/img/logo--small.png" alt="Avangarde">
+                    <img class="img" src="/avangarde/public/img/logo--small.png" alt="Avangarde">
                 </div>
                 <h3 class="header__h3">System rezerwacji wizyt online</h3>
             </div>
@@ -50,15 +50,16 @@
             <div class="wrapper flexColumn">
                 <a class="form__button form__button--back" href="#"><i class="fas fa-chevron-left"></i> Wróć</a>
                 <div class="progress flexRow">
-                    <img class="img progress__img" src="/public/img/progress--current--small.png" alt="first point">
+                    <img class="img progress__img" src="/avangarde/public/img/progress--current--small.png"
+                        alt="first point">
                     <span class="progress__bar"></span>
-                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <img class="img progress__img" src="/avangarde/public/img/progress--un--big.png" alt="first point">
                     <span class="progress__bar"></span>
-                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <img class="img progress__img" src="/avangarde/public/img/progress--un--big.png" alt="first point">
                     <span class="progress__bar"></span>
-                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <img class="img progress__img" src="/avangarde/public/img/progress--un--big.png" alt="first point">
                     <span class="progress__bar"></span>
-                    <img class="img progress__img" src="/public/img/progress--un--big.png" alt="first point">
+                    <img class="img progress__img" src="/avangarde/public/img/progress--un--big.png" alt="first point">
                 </div>
             </div>
 
@@ -616,10 +617,10 @@
 
                 <!-- register section 4 -->
                 <section class="flexRow wrapper summary--wrap register__section register__section--fourth displayNone">
-                    <div class="summary_section flexColumn">
+                    <div class="summary__section flexColumn">
                         <h2 class="register__h2">Podsumowanie wizyty</h2>
                         <label class="summary__label" for="category">Kategoria zabiegu</label>
-                        <select class="register__input summary__select" id="category">
+                        <select class="summary__input summary__input--select summary__input--category" id="category">
                             <option value="first"> Strzyżenie damskie, modelowanie, prostowanie</option>
                             <option value="second">inna opcja</option>
                             <option value="thirt">inna opcja</option>
@@ -627,7 +628,7 @@
                         </select>
 
                         <label class="summary__label" for="type">Nazwa zabiegu</label>
-                        <select class="register__input summary__select" id="type">
+                        <select class="summary__input summary__input--select summary__input--type" id="type">
                             <option value="first"> Keratynowe prostowanie włosów</option>
                             <option value="second">inna opcja</option>
                             <option value="thirt">inna opcja</option>
@@ -635,7 +636,8 @@
                         </select>
 
                         <label class="summary__label" for="specialist">Pracownik</label>
-                        <select class="register__input summary__select" id="specialist">
+                        <select class="summary__input summary__input--select summary__input--specialist"
+                            id="specialist">
                             <option value="first"> Anna Kowalska</option>
                             <option value="second">inna opcja</option>
                             <option value="thirt">inna opcja</option>
@@ -645,7 +647,7 @@
                         <div class="flexRow summary__wrapper">
                             <div class="summary__wrapper--date">
                                 <label class="summary__label" for="date">Dane wizyty </label>
-                                <select class="register__input summary__select" id="date">
+                                <select class="summary__input summary__input--select summary__input--date" id="date">
                                     <option value="first">18.02.2019</option>
                                     <option value="second">inna opcja</option>
                                     <option value="thirt">inna opcja</option>
@@ -654,8 +656,8 @@
                             </div>
 
                             <div class="summary__wrapper--hour">
-                                <label class="summary__label" for="hour">Godzina wizyty</label>
-                                <select class="register__input summary__select" id="hour">
+                                <label class="summary__label summary__label--hour" for="hour">Godzina wizyty</label>
+                                <select class="summary__input summary__input--select summary__input--hour" id="hour">
                                     <option value="first">9:00</option>
                                     <option value="second">inna opcja</option>
                                     <option value="thirt">inna opcja</option>
@@ -667,21 +669,24 @@
                         </div>
 
                     </div>
-                    <div class="summary_section flexColumn">
+                    <div class="summary__section flexColumn">
                         <h2 class="register__h2">Podaj swoje dane</h2>
                         <label class="summary__label" for="name">Imię i nazwisko</label>
-                        <input type="text" id="name" placeholder="Podaj swoje imię i nazwisko">
-                        <label class="summary__label" for="name">Nr telefonu</label>
-                        <input type="text" id="name" placeholder="Wpisz nr telefonu">
+                        <input class="summary__input summary__input--userData summary__input--name" type="text"
+                            id="name" placeholder="Podaj swoje imię i nazwisko">
+                        <label class="summary__label" for="phone">Nr telefonu</label>
+                        <input class="summary__input summary__input--userData summary__input--phone" type="text"
+                            id="phone" placeholder="Wpisz nr telefonu">
 
                         <div class="flexRow summary__wrapper--check">
-                            <input class="summary__check" type="checkbox" id="check">
                             <label for="check" class="summary__label--check">
+                                <input class="summary__check" type="checkbox" id="check">
+                                <span class="summary__mark"></span>
                                 Akceptuję regulamin zamówienia i wyrażam zgodę na przetwarzanie moich danych osobowych.
                             </label>
                         </div>
 
-                        <div class="summary__wrapper--control">
+                        <div class="summary__wrapper--buttons">
                             <button class="summary__button summary__button--cancel">Anuluj</button>
                             <button class="summary__button summary__button--register">Zarezerwuj</button>
                         </div>
@@ -689,12 +694,40 @@
                 </section>
 
                 <!-- register section 5 -->
-                <section class="flexRow wrapper summary--wrap register__section register__section--fourth displayNone">
+                <section class="flexColumn wrapper register__section register__section--fifth displayNone">
+                    <h2 class="register__h2">Szczegóły wizyty</h2>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Imię i nazwisko</th>
+                            <td class="details__userData">Beata Nowak</td>
+                        </tr>
+                        <tr>
+                            <th>Nr telefonu</th>
+                            <td class="details__phone">685975945</td>
+                        </tr>
+                        <tr>
+                            <th>Nazwa zabiegu</th>
+                            <td class="details__type">Keratynowe prostowanie włosów</td>
+                        </tr>
+                        <tr>
+                            <th>Pracownik</th>
+                            <td class="details__specialist">Anna Kowalska</td>
+                        </tr>
+                        <tr>
+                            <th>Data wizyty</th>
+                            <td class="details__date">18.02.2019</td>
+                        </tr>
+                        <tr>
+                            <th>Godzina wizyty</th>
+                            <td class="details__hour">9:00</td>
+                        </tr>
+                    </table>
+
+                    <button class="details__button">Powrót do strony głównej</button>
+                </section>
+
 
             </div>
-
-
-
         </main>
 
 

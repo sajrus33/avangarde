@@ -18,6 +18,10 @@
      /* thirt form */
         --dateFullSelfAlign: flex-start;
 
+            /* fifth details */
+            --detailsBtnWidth: 50%;
+
+
     }
     .displayMobile{
         display: flex;
@@ -27,7 +31,7 @@
     }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1200px) {
     :root{  
 
      
@@ -47,8 +51,14 @@
 
         /* register summary form */
         --summaryWrap: nowrap;
+        --summarySectionWidth: 45%;
 
+          /* fifth details */
+          --detailsBtnWidth: 25%;
+
+    
 
     }
+  
  
   }
