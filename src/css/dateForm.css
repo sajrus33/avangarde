@@ -17,7 +17,7 @@ font-size: 1.5em;
 }
 
 .date__full{
-    background-image: url("/public/img/kalendarz_icon_black.png");
+    background-image: url("/avangarde/public/img/kalendarz_icon_black.png");
     background-repeat: no-repeat;
     /* background-size: contain; */
     background-position: 95% center;
@@ -83,7 +83,7 @@ box-sizing: content-box;
 }
 
 .date__button{
-    background-image: url("/public/img/arrow--black--small.png");
+    background-image: url("/avangarde/public/img/arrow--black--small.png");
     height: 20px;
     width: 10px;
     min-width: 10px;
@@ -101,7 +101,7 @@ box-sizing: content-box;
 }
 
 .date__button--last{
-    background-image: url("/public/img/arrow--grey--small.png");
+    background-image: url("/avangarde/public/img/arrow--grey--small.png");
 
 
 }
