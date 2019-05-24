@@ -10,7 +10,7 @@ const types = document.querySelectorAll(".type__a");
 const typeForm = document.querySelector(".register__section--first");
 
 types.forEach(type => {
-    console.log({ type });
+    // console.log({ type });
 
     type.addEventListener("click", () => {
         typeForm.classList.toggle("displayNone");
@@ -22,7 +22,7 @@ const specialists = document.querySelectorAll(".specialist__a");
 const specialistForm = document.querySelector(".register__section--second");
 
 specialists.forEach(specialist => {
-    console.log({ specialist });
+    // console.log({ specialist });
 
     specialist.addEventListener("click", () => {
         specialistForm.classList.toggle("displayNone");
@@ -35,7 +35,7 @@ const dates = document.querySelectorAll(".date__a");
 const dateForm = document.querySelector(".register__section--thirt");
 
 dates.forEach(date => {
-    console.log({ date });
+    // console.log({ date });
 
     date.addEventListener("click", () => {
         dateForm.classList.toggle("displayNone");
@@ -69,7 +69,7 @@ chwiloweGuziki.forEach(guzik => {
     });
 });
 
-console.log({ types });
+// console.log({ types });
 
 
 // fifth form
