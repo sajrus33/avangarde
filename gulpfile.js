@@ -13,9 +13,3 @@ gulp.task("watch", function () {
             .pipe(gulp.dest("./public/css/"));
     });
 });
-
-// gulp.task('watch', () =>{
-
-// gulp.watch(['app/sass/**/*.sass'], gulp.series('sass'));
-
-// });
